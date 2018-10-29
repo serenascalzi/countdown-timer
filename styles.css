@@ -10,3 +10,8 @@ html {
 *, *:before, *:after {
 	box-sizing:inherit;
 }
+
+#container {
+	font-family:sans-serif;
+	text-align:center;
+}
