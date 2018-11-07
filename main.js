@@ -7,8 +7,7 @@ $(document).ready(function() {
 		let monthNames = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December']
 		let monthName = monthNames[today.getMonth()]
 
-		let months = today.getMonth()
-		let month = 0
+		let month = today.getMonth()
 		if (month == 0 || month == 2 || month == 4 || month == 6 || month == 7 || month == 9 || month == 11) {
 			month = 31
 		} else if (month == 3 || month == 5 || month == 8 || month == 10) {
