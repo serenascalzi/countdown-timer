@@ -53,7 +53,7 @@ $(document).ready(function() {
 			secondsLabel = 'second'
 		}
 
-		let timer = `<h2>${monthName} ends in</h2> <h3>${days} ${daysLabel} : ${hours} ${hoursLabel} : ${minutes} ${minutesLabel} : ${seconds} ${secondsLabel}</h3>`
+		let timer = `<h3>countdown to the end of</h3> <h2>${monthName}</h2> <h3>${days} ${daysLabel} :: ${hours} ${hoursLabel} :: ${minutes} ${minutesLabel} :: ${seconds} ${secondsLabel}</h3>`
 		$('#timer').html(timer)
 	}, 1000)
 })
